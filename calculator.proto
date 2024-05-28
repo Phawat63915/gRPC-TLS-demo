@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package calculator;
+
+service Calculator {
+  rpc Square (SquareRequest) returns (SquareResponse) {}
+}
+
+message SquareRequest {
+  int32 number = 1;
+}
+
+message SquareResponse {
+  int32 result = 1;
+}

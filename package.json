@@ -1,0 +1,18 @@
+{
+  "name": "new-folder-(5)",
+  "version": "1.0.0",
+  "description": "npm install @grpc/grpc-js @grpc/proto-loader\r py -m pip install grpcio grpcio-tools",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.8",
+    "@grpc/proto-loader": "^0.7.13",
+    "fs": "^0.0.1-security"
+  }
+}
